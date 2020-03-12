@@ -1,0 +1,549 @@
+/*
+css.css
+---------
+
+Par Lucas Barrère
+*/
+
+@import url(//db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display);
+
+@font-face {font-family: "SF Pro Display"; src: url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot"); src: url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff") format("woff"), url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.svg#SF Pro Display") format("svg"); }
+
+body {
+    background-color: black !important;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+h1 {
+	color: rgba(255, 255, 255, 0);
+    font-family: "SF Pro Display";
+    font-weight: 700;
+    font-size: 3.0em;
+}
+
+h2 {
+	color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: "SF Pro Display";
+    font-weight: 700;
+    margin-top: 30px;
+    margin-right: 100px;
+    padding-top: 50px;
+    text-align: left;
+    margin-left: 160px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: "SF Pro Display";
+    font-weight: 200;
+    font-size: 15px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.nav a{
+    position: fixed;
+}
+
+#logoaccueil {
+    /*padding-left: 50px;
+    padding-top: 30px;*/
+    margin-top: 10px;
+    margin-left: -100px;
+    max-width: 200px;
+}
+
+nav#menu {
+    color: rgb(255, 255, 255);
+    margin-top: 18px;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: right;
+}
+
+#linkmenu {
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    font-family: "SF Pro Display";
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#linkmenu:hover {
+    color: #aaaaaa;
+}
+
+#menuicon {
+    max-width: 17px;
+}
+
+#menuicon2 {
+    max-width: 35px;
+}
+
+#aucoeurdelocean {
+    max-width: 500px;
+    padding-top: 40px;
+    padding-right: 40px;
+    margin-left: 80px;
+}
+
+#aucoeurdeloceantitre {
+    max-width: 350px;
+    padding-top: 40px;
+    margin-right: 300px;
+
+}
+
+.texteintro1 p {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-family: "SF Pro Display";
+    font-weight: 200;
+    padding-top: 20px;
+    margin-left: 120px;
+    margin-right: -200px;
+    text-align: left;
+}
+
+#logoqueen {
+    margin-top: 90px;
+    max-width: 200px;
+    padding: 40px;
+    margin-left: 40px;
+    float: left;
+}
+
+h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-top: -110px;
+    margin-left: 35px;
+}
+
+.texteintro2 p {
+    padding-bottom: 60px;
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-family: "SF Pro Display";
+    font-weight: 200;
+}
+
+#affichequeen {
+    max-height: 450px;
+    padding-left: 30px;
+    border-left: solid 1px white;
+    margin-left: -50px;
+}
+
+.rondcouleurs {
+    margin-right: 60px;
+    margin-bottom: 200px;
+    
+}
+
+/*#rondcouleurs {
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin-right: 10px;
+}*/
+
+#loading{
+    position: absolute;
+    margin-left: 31%;
+    margin-top: 85px;
+}
+
+#imagechaines {
+    margin-top: 100px;
+    max-height: 250px;
+}
+
+#imagecategories {
+    margin-top: 100px;
+    max-height: 250px;
+}
+
+#imagemesvideos {
+    margin-top: 100px;
+    max-height: 250px;
+}
+
+#imageseries {
+    margin-top: 35px;
+    max-height: 350px;
+    padding-bottom: 30px;
+    transition: transform .2s;
+}
+
+#imageseries:hover {
+    transform: scale(1.5);
+}
+
+#imagefilms {
+    margin-top: 35px;
+    max-height: 350px;
+    padding-bottom: 30px;
+    transition: transform .2s;
+}
+
+#imagefilms:hover {
+    transform: scale(1.5);
+}
+
+div.col-lg-4 {
+    font-weight: bold;
+}
+
+div.col-lg-8 {
+    font-weight: bold;
+}
+
+body {
+    padding-top: 10px;
+}
+
+[class*="col-lg-"] {
+    
+    border: 0px solid black;
+    line-height: 40px;
+    text-align: center;
+    font-weight : bold;
+}
+
+.container .col-lg-2:last-of-type {
+    background: rgb(0, 0, 0);
+}
+    
+.container-fluid {
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+
+#imagedirect {
+    width: 70px;
+    height: auto;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    transition: transform .2s;
+}
+
+.lienimagechaines a{
+    text-decoration: none;
+}
+
+#imagedirect:hover {
+    transform: scale(1.5);
+}
+
+.carousel-indicators-numbers {
+
+    margin-top: 10px;
+    li {
+      text-indent: 0;
+      margin: 0 2px;
+      width: 30px;
+      height: 30px;
+      border: none;
+      border-radius: 100%;
+      line-height: 30px;
+      color: #fff;
+      background-color: #999;
+      transition: all 0.25s ease;
+      &.active, &:hover {
+        margin: 0 2px;
+        width: 30px;
+        height: 30px;
+        background-color: wheat;        
+      }
+    }
+}
+
+.footer {
+    background-color: #080808;
+    margin-left: -20px;
+    margin-right: -100px;
+    margin-bottom: -40px;
+}
+
+#logoaccueilfooter {
+    max-width: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+nav#menufooter {
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-right: 140px;
+    padding-top: 0px;
+    padding-left: 20px;
+    text-align: right;
+}
+
+#linkmenu2 {
+    color: white;
+    text-decoration: none;
+    font-family: "SF Pro Display";
+    font-size: 13px;
+    text-align: right;
+}
+
+#linkmenu2:hover {
+    color: #aaaaaa;
+}
+
+nav#menufooter2 {
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+    margin-right: 140px;
+    padding-top: 0px;
+    padding-left: 20px;
+    text-align: right;
+}
+
+#linkmenu3 {
+    color: white;
+    text-decoration: none;
+    font-family: SF-Pro-Text-Bold, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: right;
+}
+
+#linkmenu3:hover {
+    color: #aaaaaa;
+}
+
+.footercontact {
+    margin-top: 60px;
+}
+
+.footercontact a {
+    margin-top: -30px;
+    margin-left: 60px;
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: solid 1px rgba(255, 255, 255, 0.10);
+    border-radius: 30px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+.footercontact a:hover {
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: solid 1px rgba(255, 255, 255, 0.10);
+    border-radius: 30px;
+    color: #aaaaaa;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#social {
+    margin-top: 75px;
+    margin-left: 60px;
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+}
+
+#social:hover {
+    color: #080808;
+}
+
+/*# {
+    display: inline-block;
+    background: url("black.jpg") no-repeat;
+    }
+
+#:hover {
+    visibility: hidden;
+}*/
+
+#video {
+    margin-top: 35px;
+    
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 640px) {
+    #logoaccueil {
+        margin-top: 10px;
+        margin-left: 0px;
+        max-width: 200px;
+    }
+
+    nav#menu {
+        color: rgb(255, 255, 255);
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    #linkmenu {
+        color: white;
+        text-decoration: none;
+        padding-left: 30px;
+        font-family: "SF Pro Display";
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    #aucoeurdelocean {
+        max-width: 300px;
+        padding-top: 40px;
+        margin-left: 30px;
+    }
+
+    #aucoeurdeloceantitre {
+        max-width: 180px;
+        padding-top: 20px;
+        margin-left: 70px;
+    }
+
+    .texteintro1 p {
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        font-family: "SF Pro Display";
+        font-weight: 200;
+        padding-top: 20px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #logoqueen {
+        max-width: 150px;
+        padding: 40px;
+        margin-left: 100px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    .texteintro2 p {
+        margin-top: 0px;
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        font-family: "SF Pro Display";
+        font-weight: 200;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    }
+  }
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        #logoaccueil {
+            margin-top: 10px;
+            margin-left: 0px;
+            max-width: 200px;
+        }
+
+        nav#menu {
+            color: rgb(255, 255, 255);
+            margin-right: 20px;
+            text-align: center;
+        }
+
+        #linkmenu {
+            color: white;
+            text-decoration: none;
+            padding-left: 30px;
+            font-family: "SF Pro Display";
+            font-weight: 700;
+            font-size: 12px;
+        }
+
+        #aucoeurdelocean {
+            max-width: 300px;
+            padding-top: 40px;
+            margin-left: 30px;
+        }
+
+        #aucoeurdeloceantitre {
+            max-width: 180px;
+            padding-top: 20px;
+            margin-left: 70px;
+        }
+
+        .texteintro1 p {
+            color: rgb(255, 255, 255);
+            font-size: 12px;
+            font-family: "SF Pro Display";
+            font-weight: 200;
+            padding-top: 20px;
+            text-align: center;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        #logoqueen {
+            max-width: 150px;
+            padding: 40px;
+            margin-left: 100px;
+            margin-right: 0px;
+            margin-top: 0px;
+        }
+
+        .texteintro2 p {
+            margin-top: 0px;
+            color: rgb(255, 255, 255);
+            font-size: 12px;
+            font-family: "SF Pro Display";
+            font-weight: 200;
+            margin-left: 35px;
+            margin-right: 35px;
+        }
+
+        #logoaccueilfooter {
+            max-width: 200px;
+            margin-right: 50px;
+        }
+
+        nav#menufooter {
+            color: rgb(255, 255, 255);
+            margin-top: 0px;
+            margin-right: 75px;
+        }
+
+        #linkmenu2 {
+            color: white;
+            text-decoration: none;
+            font-family: "SF Pro Display";
+            font-size: 13px;
+            text-align: right;
+            padding-left: 10px;
+        }
+    }
+
+/*iPhone 8*/
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { }
+
+/*iPhone 8 Plus*/
+
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) { }
