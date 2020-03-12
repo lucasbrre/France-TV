@@ -1,0 +1,204 @@
+/*
+css.css
+---------
+
+Par Lucas Barrère
+*/
+
+body {
+    background-color: black !important;
+    background-attachment: fixed;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+p {
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.nav a {
+    position: fixed;
+}
+
+#logoaccueil {
+    /*padding-left: 50px;
+    padding-top: 30px;*/
+    margin-top: 10px;
+    margin-left: -100px;
+    max-width: 200px;
+}
+
+nav#menu {
+    color: rgb(255, 255, 255);
+    margin-top: 18px;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: right;
+}
+
+#linkmenu {
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    font-family: SF-Pro-Text-Bold, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#linkmenu:hover {
+    color: #aaaaaa;
+}
+
+#menuicon {
+    max-width: 17px;
+}
+
+#menuicon2 {
+    max-width: 35px;
+}
+
+#video {
+    margin-top: 35px;
+}
+
+[class*="col-lg-"] {
+    
+    border: 0px solid black;
+    line-height: 40px;
+    text-align: center;
+    font-weight : bold;
+}
+
+.container .col-lg-2:last-of-type {
+    background: rgb(0, 0, 0);
+}
+    
+.container-fluid {
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+
+#photoprofil {
+    width: 150px;
+    height: auto;
+    padding-bottom: 70px;
+}
+
+#imageprofil {
+    width: 150px;
+    padding-bottom: 30px;
+    height: auto;
+    transition: transform .2s;
+}
+
+#imageprofil:hover {
+    transform: scale(1.5);
+}
+
+.footer {
+    background-color: #080808;
+    margin-left: -20px;
+    margin-right: -100px;
+    margin-bottom: -40px;
+}
+
+#logoaccueilfooter {
+    max-width: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+nav#menufooter {
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-right: 140px;
+    padding-top: 0px;
+    padding-left: 20px;
+    text-align: right;
+}
+
+#linkmenu2 {
+    color: white;
+    text-decoration: none;
+    font-family: SF-Pro-Text-Bold, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: right;
+}
+
+#linkmenu2:hover {
+    color: #aaaaaa;
+}
+
+nav#menufooter2 {
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+    margin-right: 140px;
+    padding-top: 0px;
+    padding-left: 20px;
+    text-align: right;
+}
+
+#linkmenu3 {
+    color: white;
+    text-decoration: none;
+    font-family: SF-Pro-Text-Bold, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: right;
+}
+
+#linkmenu3:hover {
+    color: #aaaaaa;
+}
+
+.footercontact {
+    margin-top: 60px;
+}
+
+.footercontact a {
+    margin-top: -30px;
+    margin-left: 60px;
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: solid 1px rgba(255, 255, 255, 0.10);
+    border-radius: 30px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+.footercontact a:hover {
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: solid 1px rgba(255, 255, 255, 0.10);
+    border-radius: 30px;
+    color: #aaaaaa;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#social {
+    margin-top: 75px;
+    margin-left: 60px;
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+}
+
+#social:hover {
+    color: #080808;
+}
